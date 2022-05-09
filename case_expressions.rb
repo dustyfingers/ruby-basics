@@ -9,7 +9,7 @@ custom_day_hash = {
 }
 
 def get_day_name(day, day_hash)
-    
+
     day_name = ""
     
     case day_hash.key?(day)
@@ -19,6 +19,8 @@ def get_day_name(day, day_hash)
         day_name = "Invalid Abbreviation"
     end
 
+    # notice the implicit return here
+    
 end
 
 puts get_day_name("mon", custom_day_hash)
