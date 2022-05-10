@@ -3,3 +3,5 @@ Andy, Sales
 Kelly, Customer Service
 Creed, QA
 Michael, Manager
+Smith, Developer
+Jensen, Accounting
